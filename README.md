@@ -22,3 +22,23 @@ AWSやLinuxの学習記録です。
 - Elastic IP設定
 - nginxインストール
 - Web公開成功
+
+
+## 2026-07-15
+
+### Today
+
+- NAT Gatewayについて学習
+- Private Subnet作成
+
+### Learned
+
+NAT GatewayはPrivate Subnetから外へ通信するための出口。
+
+### Trouble
+
+EC2からSSH接続できなかった。
+
+### Solution
+
+Security Groupの22番ポート設定を確認した。
